@@ -1,5 +1,5 @@
 <cu-custom bgColor="bg-white text-black" isBack="{{false}}">
-<view slot="content">宠之约</view>
+<view slot="content">宠约Pet</view>
 </cu-custom>
 <view class='body'>
   <yueliu-nav nav1='{{nav1}}' nav2='{{nav2}}' nav3='{{nav3}}' bind:navChange="navChange" bind:navChange2="navChange2">
