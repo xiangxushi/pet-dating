@@ -1,0 +1,54 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{false}}">
+<view slot="content">广场</view>
+</cu-custom>
+<!-- <view class='tit'>
+  <text class='tit-l'>线下活动</text>
+  <view class='tit-r'>全部
+    <image src='/img/jiantou.png'></image>
+  </view>
+</view> -->
+<navigator class="cu-list menu " url="../activity/activity">
+  <view class="cu-item arrow">
+    <view class="content">
+      <text class="text-black text-bold">线下活动</text>
+    </view>
+    <view class="action">
+      <text class="text-grey text-sm">全部</text>
+    </view>
+  </view>
+</navigator>
+<scroll-view scroll-x class='scroll padding-l-df'>
+  <view class='scroll-item shadow ' wx:for='{{huodong}}' wx:key='{{item}}'>
+    <image src='{{item.img}}'></image>
+    <text class='text-sm'>{{item.title}}</text>
+  </view>
+</scroll-view>
+<view class='nav'>
+  <view class='on'>附近</view>
+  <view>关注</view>
+  <view>热门</view>
+</view>
+
+<view class='box' wx:for='{{list}}' wx:key="{{item}}">
+  <image class='touxiang' src='{{item.touxiang}}'></image>
+  <view class='lb'>
+    <text class='h3'>{{item.name}}</text>
+    <text class='h5'>{{item.date}}   {{item.line}}</text>
+  </view>
+  <view class='lb follow'>
+    + 关注
+  </view>
+  <view class='zw'>
+    {{item.zw}}
+  </view>
+  <view class='flex3'>
+    <image wx:for='{{item.img}}' wx:key='{{item}}' src='{{item}}'></image>
+  </view>
+  <view class='fo'>
+    <image wx:if='{{item.sc== 1}}' src='/images/home/xin_1.png'></image>
+    <image wx:else src='/images/home/xin_2.png'></image>
+    {{item.scnum}}
+    <image src='/images/home/xiaoxi.png'></image>
+    {{item.xiaoxi}}
+  </view>
+</view>

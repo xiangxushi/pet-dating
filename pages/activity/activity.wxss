@@ -1,0 +1,4 @@
+/* pages/activity/activity.wxss */
+.cu-card>.cu-item {
+margin:20rpx!important;
+}

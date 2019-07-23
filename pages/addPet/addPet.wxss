@@ -1,0 +1,17 @@
+/* pages/addPet/addPet.wxss */
+.bg-newyellow {
+  background-color:#FFE663;
+  color: #6D5B00;
+}
+
+.cu-tag[class*="cuIcon-"] {
+	width: 48rpx!important;
+	height: 48rpx!important;
+  top: 130rpx!important;
+	right: 25rpx!important;
+}
+.cu-avatar.xl {
+	width: 168rpx!important;
+	height: 168rpx!important;
+	font-size: 2.5em;
+}

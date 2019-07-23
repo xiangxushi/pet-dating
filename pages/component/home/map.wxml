@@ -1,0 +1,7 @@
+
+<map class='map' longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}" enable-scroll='true' bindtap show-compass='true' bindmarkertap style='width:100%;Height:{{hight}}px' show-location='true'></map>
+
+<cover-view class='dingwei' bindtap='dingwei'>
+  <cover-image src='/images/home/dingwei.png'></cover-image>
+  <cover-view>北京市当前在线105位宠友</cover-view>
+</cover-view>

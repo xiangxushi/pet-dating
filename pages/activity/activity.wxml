@@ -1,0 +1,42 @@
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+<view slot="backText">返回</view><view slot="content">活动</view>
+</cu-custom>
+<view class="cu-card case">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="/images/1.jpg" mode="scaleToFill" height="180rpx" ></image>      
+    </view>
+
+    <view class="flex padding justify-between padding-sm margin-xs">
+      <view class="">
+      大标题：会撒娇的主人最可爱
+      </view>
+      <view class="">
+        <text class='cuIcon-peoplefill text-yellow margin-lr-sm'></text>
+        <text>25/30</text>
+      </view>
+    </view>
+    
+  </view>
+
+</view>
+
+<view class="cu-card case">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg" mode="widthFix"></image>      
+    </view>
+
+    <view class="flex padding justify-between padding-sm margin-xs">
+      <view class="">
+      大标题：会撒娇的主人最可爱
+      </view>
+      <view class="">
+        <text class='cuIcon-peoplefill text-yellow margin-lr-sm'></text>
+        <text>25/30</text>
+      </view>
+    </view>
+    
+  </view>
+
+</view>

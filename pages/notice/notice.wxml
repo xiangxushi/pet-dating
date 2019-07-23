@@ -1,0 +1,13 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{true}}">
+<view slot="content">通知</view>
+</cu-custom>
+
+<view class='margin-top-sm bg-white padding'>
+  <view class='text-center'>
+    <view class='cu-tag round padding-lr-sm'> 今天 13：15</view>
+  </view>
+  <view class='padding'>
+    <text class='cuIcon-noticefill lg text-yellow padding'></text>
+    <text>昵称小明已取消约遛，赔偿您100狗粮违约金，已打入您的账户。</text>
+  </view>
+</view>

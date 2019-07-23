@@ -1,0 +1,86 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{false}}">
+<view slot="content">我的</view>
+</cu-custom>
+<view class='top'>
+  <view class='touxiang'>
+    <image class='touxiang-img' src='/images/touxiang.jpeg'></image>
+    <view class='touxiang-text'>{{name}}
+      <view class='age'>
+        <image src='/images/img/boy_icon.png' class='sex' wx:if="{{sex == 'boy'}}"></image> 
+        <image src='/images/img/girl_icon.png' class='sex' wx:else ></image>   
+      19</view>
+    </view>
+  </view>
+  <image src='/images/img/my-bg.jpg' class='top_bg'></image>
+  <view class='bianji'>
+    <image src='/images/img/bian_ji.png'></image>
+    <text>资料</text>
+  </view>
+  <view class='view-box'>
+    <view class='box cl' bindtap='goFoodRecord' data-url='dogfoot' >
+      <text class='fts32'>{{gouliang}}</text>
+      <image src='/images/img/toase-gouliang.png' class='gouliang'></image>
+    </view>
+    <view class='box'>
+      <text class='fts32'>{{zan}}</text>赞
+    </view>
+    <view class='box'>
+      <text class='fts32'>{{guanzhu}}</text>关注</view>
+    <view class='box'>
+      <text class='fts32'>{{fensi}}</text>粉丝</view>
+  </view>
+</view>
+<view class='main'>
+  <view>
+    <image class='main_image' src='/images/home/head.png'></image>
+    <view class='main-fr'>
+      <text class='h1'>火箭</text>
+      <text>柴犬</text>
+    </view>
+    <image src="/images/img/jiantou.png" class='jiantou'></image>
+  </view>
+  <view bindtap="goAddPet">
+    <image class='main_image' src='/images/img/tianjia_icon.png'></image>
+    <view class='main-fr'>
+      <text class='h1'>添加宠物</text>
+    </view>
+    <image src="/images/img/jiantou.png" class='jiantou'></image>
+  </view>
+</view>
+<view class='bor'>
+</view>
+<view class='nav'>
+  <view>
+    <text class='on'>首页</text>
+  </view>
+  <view>
+    <text>相册</text>
+  </view>
+</view>
+<view class='list'>
+  <view class='li'>
+    <view class='list-r'>
+      <text class='h2'>26</text>
+      <text>5月</text>
+    </view>
+    <image class='list-m radius' src='/images/img/my-bg.jpg'></image>
+    <view class='list-l'>我很快乐</view>
+  </view>
+<view class='li'>
+    <view class='list-r'>
+      <text class='h2'>26</text>
+      <text>5月</text>
+    </view>
+    <image class='list-m radius' src='/images/img/my-bg.jpg'></image>
+    <view class='list-l'>我很快乐</view>
+  </view>
+  <view class='li'>
+    <view class='list-r'>
+      <text class='h2'>26</text>
+      <text>5月</text>
+    </view>
+    <image class='list-m radius' src='/images/img/my-bg.jpg'></image>
+    <view class='list-l'>我很快乐</view>
+  </view>
+</view>
+<view class='margin-lg bg-white'> </view>

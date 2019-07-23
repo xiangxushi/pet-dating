@@ -1,0 +1,8 @@
+/* pages/petLimit/petLimit.wxss */
+.bg-newyellow {
+  background-color:#FFE663;
+  color: #6D5B00;
+}
+.cu-tag+.cu-tag {
+	margin-left: 0rpx!important;
+}

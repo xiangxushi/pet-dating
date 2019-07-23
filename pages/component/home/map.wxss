@@ -1,0 +1,25 @@
+/* pages/component/map.wxss */
+.map{
+  width: 100%;
+}
+.dingwei{
+  position: fixed;
+  bottom: 40rpx;
+  left: 30rpx;
+}
+.dingwei cover-image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.dingwei cover-view{
+  position: fixed;
+  bottom: 40rpx;
+  left: 160rpx;
+  width: 430rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background-color: #ffe243;
+	border-radius: 20rpx;
+  
+}

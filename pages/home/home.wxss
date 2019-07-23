@@ -1,0 +1,16 @@
+.radius {
+  border-radius:20rpx;
+}
+.controls {
+  position: relative;
+  top: 0;
+  /* display: flex; */
+}
+.online{
+  position: absolute;
+  bottom: 30rpx;
+}
+.location-icon{
+  width:150rpx;
+  height: 150rpx;
+}

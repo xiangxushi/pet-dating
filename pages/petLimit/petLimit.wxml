@@ -1,0 +1,62 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{false}}">
+<view slot="content">宠友限制</view>
+</cu-custom>
+<view class='bg-white margin-top-sm'>
+  <view class='padding-tb-lg text-black'>
+  <text class='padding'>符合您限制条件的狗狗将允许加入:</text>
+  </view>
+  <view class="flex solid-bottom">
+        <view class="flex-sub padding-sm margin-xs">
+          <text>类型:</text>
+        </view>
+        <view class="flex-treble padding-sm">
+            <view class="grid col-3 text-center padding-right-lg">
+            <view>
+              <view class="margin-bottom-sm cu-tag round padding bg-newyellow">无限制</view>
+            </view>
+            <view>
+              <view class="margin-bottom-sm cu-tag line-black round padding">小型犬</view>
+            </view>
+            <view>
+              <view class="margin-bottom-sm cu-tag line-black round padding">中型犬</view>
+            </view>
+            <view>
+              <view class="margin-bottom-sm cu-tag line-black round padding">大型犬</view>
+            </view>
+            </view>
+        </view>
+  </view>
+
+  <view class="cu-list menu solid-bottom">
+    <view class="cu-item arrow">
+      <view class="content">
+        <text class="text-black">品种:</text>
+      </view>
+      <view class="action">
+          <text class="text-grey text-df">请选择</text>
+      </view>
+    </view>
+  </view>
+  <view class="flex">
+        <view class="flex-sub padding-sm margin-xs">
+          <text>是否绝育:</text>
+        </view>
+        <view class="flex-treble padding-sm ">
+            <view class="grid col-3 text-center padding-right-lg">
+              <view>
+                <view class=" cu-tag  round padding bg-newyellow">无限制</view>
+              </view>
+              <view>
+                <view class=" cu-tag line-black round padding">已绝育</view>
+              </view>
+              <view>
+                <view class=" cu-tag line-black round padding">未绝育</view>
+              </view>
+            </view>
+        </view>
+  </view>
+
+</view>
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-newyellow margin-tb-sm lg round">确定</button>
+</view>

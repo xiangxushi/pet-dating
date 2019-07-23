@@ -1,0 +1,28 @@
+<view class='li' wx:for='{{yueliulist}}' wx:key='{{item}}'>
+  <view class='fl'>
+    <view class='h1'>{{item.add}}</view>
+    <view >{{item.time}}</view>
+  </view>
+  <view class='fr'>
+    <image wx:for='{{item.images}}' wx:key='{{item}}' src='{{item}}'></image>
+  </view>
+  <view class='fl'>
+    <view wx:if='{{item.static == 1}}' class='faqi'>我发起的</view>
+    <view wx:elif='{{item.static == 2}}' class='jiaru'>我加入的</view>
+    <view wx:elif='{{item.static == 3}}' class='faqi'>我发起的</view>
+    <view wx:elif='{{item.static == 4}}' class='jiaru'>我加入的</view>
+    <view wx:elif='{{item.static == 5}}' class='jiaru'>我加入的</view>
+    <view wx:else>距离你<text class='red'>{{item.static}}</text>快加入吧</view>
+  </view>
+  <view class='fr'>
+    {{item.pep}}
+    <image src='/images/s/ren_icon.png' class='ren'></image>
+    <view wx:if='{{item.static == 1}}' class='daijiaru'>待TA加入</view>
+    <view wx:elif='{{item.static == 2}}' class='daijiaru daishenqing'>申请中</view>
+    <view wx:elif='{{item.static == 3}}' class='daijiaru quxiao'>已取消</view>
+    <view wx:elif='{{item.static == 4}}' class='daijiaru quxiao'>已取消</view>
+    <view wx:elif='{{item.static == 5}}' class='daijiaru jujue'>被拒绝</view>
+    <view wx:else class='daijiaru woyaojiaru'>我要加入</view>
+  </view>
+
+</view>

@@ -1,0 +1,38 @@
+<!--pages/home/home.wxml-->
+<map id="map" longitude="{{globalData.latitude}}" latitude="{{globalData.latitude}}" scale="{{scale}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style='width:100%;height:100vh;'>
+  <cover-view class="controls">
+    <cover-view style="width:100%">
+      <cover-view scroll-x class="bg-white nav">
+        <cover-view class="flex text-center text-lg">
+          <cover-view class="cu-item flex-sub {{index==TabCur?'text-yellow cur':''}}" wx:for="{{topSwiper}}" wx:key="index" bindtap="tabSelect" data-id="{{index}}">
+            {{item.title}}
+          </cover-view>
+        </cover-view>
+      </cover-view>
+    </cover-view>
+
+    <cover-view scroll-x class="bg-white padding-tb-sm">
+      <cover-view class="flex justify-center">
+        <cover-view class="cu-item flex-sub" wx:for="{{listSwiper}}" wx:key="index" bindtap="listSelect" data-id="{{index}}" style='display: flex;justify-content: center;align-items: center;'>
+          <cover-image src="{{index==ListCur?'/images/home/'+item.icon+'_1.png':'/images/home/'+item.icon+'_2.png'}}" style="width:55rpx;height:55rpx"></cover-image>
+        </cover-view>
+      </cover-view>
+    </cover-view>
+
+</cover-view>
+
+<cover-view class='flex p-xs online ' style='width:100%'>
+  <cover-view class='flex-sub ' bindtap="goLocation">
+    <cover-image src='/images/home/dingwei.png' class='location-icon' style='width:400rpx;height:400rpx;margin:0 auto'></cover-image>
+  </cover-view>
+  <cover-view class='flex-treble'>
+    <cover-view class='text-center radius shadow' style='background-color:#fce770;opacity:0.8;' >
+      <cover-view class='shadow' style='opacity:1;color:#050401;margin: 10rpx 0' class='padding-tb-sm'>北京市当前在线105位宠友</cover-view>
+    </cover-view>
+  </cover-view>
+  <cover-view class='flex-sub'></cover-view>
+
+</cover-view>
+
+
+</map>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "yueliu-nav": "../component/home/yueliunav",
+    "my-map":"../component/home/map",
+    "fujinlist": "../component/home/fujinlist",
+    "yueliulist": "../component/home/yueliulist"
+  }
+}

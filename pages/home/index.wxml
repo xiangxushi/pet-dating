@@ -1,0 +1,16 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{false}}">
+<view slot="content">宠之约</view>
+</cu-custom>
+<view class='body'>
+  <yueliu-nav nav1='{{nav1}}' nav2='{{nav2}}' nav3='{{nav3}}' bind:navChange="navChange" bind:navChange2="navChange2">
+  </yueliu-nav>
+  <view class='{{nav3 == 1?"show":"hidden"}}'>
+    <my-map markers='{{markers}}' hight='{{view.Height}}'></my-map>
+  </view>
+  <view class='{{nav3 == 2 && nav1 == 1 || nav3 == 2 && nav1 == 2 ?"show":"hidden"}}'>
+    <fujinlist funjinlist='{{funjinlist}}'></fujinlist>
+  </view>
+  <view class='{{nav3 == 3 || nav3 == 2 && nav1 == 3 ? "show":"hidden"}}'>
+    <yueliulist yueliulist='{{yueliulist}}'></yueliulist>
+  </view>
+</view>

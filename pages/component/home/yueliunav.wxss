@@ -1,0 +1,26 @@
+/* component/yueliunav.wxss */
+.nav {
+  width: 100%;
+  padding: 10rpx;
+  display: flex;
+  flex-wrap:nowrap ;
+  justify-content:space-around;
+  align-items: flex-start;
+  background:#fff;
+}
+.nav view{
+  display: inline-block;
+  text-align: center;
+  font-size: 30rpx;
+  color: #999999;
+}
+.nav view.on text{
+  display: inline-block;
+  padding: 0  0 26rpx 0;
+  border-bottom: 5rpx solid #ffd505;
+}
+
+.nav image{
+  width: 40rpx;
+  height: 45rpx;
+}

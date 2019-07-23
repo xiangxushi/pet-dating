@@ -1,0 +1,25 @@
+<view class='nav'>
+  <view class='{{nav1 == 1 ? "on" : "o"}}'>
+    <text bindtap='link' data-id='1'>附近约宠</text>
+  </view>
+  <view class='{{nav1 == 2 ? "on" : "o"}}'>
+    <text bindtap='link' data-id='2'>附近遛狗</text>
+  </view>
+  <view class='{{nav1 == 3 ? "on" : "o"}}'>
+    <text bindtap='link' data-id='3'>附近宠友</text>
+  </view>
+</view>
+<view class='nav'>
+  <view class='on'>
+    <image wx:if='{{nav3 == 1 }}' src='/images/home/dingwei_1.png'></image>
+    <image wx:else src='/images/home/dingwei_2.png' bindtap='link2' data-id='1'></image>
+  </view>
+  <view>
+    <image wx:if='{{nav3 == 2 }}' src='/images/home/liebiao_1.png'></image>
+    <image wx:else src='/images/home/liebiao_2.png' bindtap='link2' data-id='2'></image>
+  </view>
+  <view wx:if='{{nav1 != 1}}'>
+    <image wx:if='{{ nav3 == 3 }}' src='/images/home/shouye_cur.png'></image>
+    <image wx:else src='/images/home/shouye.png' bindtap='link2' data-id='3'></image>
+  </view>
+</view>

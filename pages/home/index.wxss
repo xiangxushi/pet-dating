@@ -1,0 +1,9 @@
+/* pages/home/index.wxss */
+
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+

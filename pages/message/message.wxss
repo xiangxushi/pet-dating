@@ -1,0 +1,11 @@
+/* pages/message/message.wxss */
+.message-list{
+  min-height:130rpx!important;
+}
+.message-icon{
+  width:40px!important;
+  height:40px!important;
+}
+.cu-list+.cu-list {
+  margin-top:20rpx!important;
+}

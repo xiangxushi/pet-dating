@@ -1,0 +1,73 @@
+.li{
+  margin: 10rpx 20rpx;
+  background: #fff;
+  box-shadow: 0rpx 6rpx 9rpx 1rpx 
+		rgba(181, 181, 181, 0.19);
+	border-radius: 10rpx;
+}
+.li-fl{
+  display: inline-block;
+  width: 122rpx;
+  height: 122rpx;
+  border-radius: 50%;
+  vertical-align: top;
+  margin: 55rpx 20rpx;
+}
+.li-cen{
+  margin-top: 50rpx;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 26rpx;
+  color: #999;
+}
+.li-cen .h1{
+  display: block;
+  font-size: 32rpx;
+	font-weight: bold;
+  color: #000000;
+}
+.li-cen .sex{
+  margin: 10rpx 0;
+  background-color: #fd64b3;
+	border-radius: 16rpx;
+  color: #fff;
+  width: 76rpx;
+  height: 32rpx;
+  font-size: 22rpx;
+}
+.li-cen .sex image{
+  margin: 7rpx 0 0 12rpx ;
+  display: inline-block;
+  width: 18rpx;
+  height: 18rpx;
+}
+.li-fr{
+  display: inline-block;
+  float: none;
+}
+.chongwu{
+  float: right;
+  width: 100rpx;
+  text-align: center;
+  margin: 65rpx 29rpx 0 0;
+}
+.chongwu image{
+  display: inline-block;
+  width:65rpx;
+  height: 65rpx; 
+  border-radius: 50%;
+}
+.chongwu view{
+  height: 36rpx;
+	background-color: #80c883;
+	border-radius: 18rpx;
+  color: #fff;
+  margin: 10rpx 0;
+  font-size: 24rpx;
+}
+.chongwu:last-child view{
+  background: #ff89c6;
+}
+.chongwu.chongwu-0 view{
+  background-color: #b2b2b2;
+}

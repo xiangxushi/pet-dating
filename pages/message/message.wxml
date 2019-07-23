@@ -1,0 +1,91 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{false}}">
+<view slot="content">消息</view>
+</cu-custom>
+<view class="cu-list menu margin-top-sm sm-border">
+    <view class="cu-item arrow message-list">
+      <view class="content">
+        <image src='../../images/message/guan_zhu.png' class="message-icon"></image>
+        <text class="padding-left-sm">关注</text>
+      </view>
+    </view>
+    <view class="cu-item arrow message-list">
+      <navigator class="content" url="/pages/visitors/visitors">
+        <image src='../../images/message/lai_fang.png' class="message-icon"></image>        
+        <text class="padding-left-sm">访客</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow message-list">
+      <navigator class="content" hover-class="none" url="../list/list" open-type="redirect">
+        <image src='../../images/message/tong_zhi.png' class="message-icon"></image>
+        <text class="padding-left-sm">通知</text>
+      </navigator>
+    </view>
+  </view>
+
+<view class="cu-list menu-avatar">
+    <navigator class="cu-item" url="../chat/chat">
+      <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+      <view class="content">
+        <view class="text-grey">凯尔</view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut">
+							<text class="cuIcon-infofill text-red  margin-right-xs"></text> 在吗？可以加入你的遛弯吗？
+          </text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-sm">22:20</view>
+        <!-- <view class="cu-tag round bg-grey sm">5</view> -->
+      </view>
+    </navigator>
+    <navigator class="cu-item" url="../chat/chat">
+      <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Taric.png);">
+        <view class="cu-tag badge">1</view>
+      </view>
+      <view class="content">
+        <view class="text-grey">
+          <text class="text-cut">瓦洛兰之盾-塔里克</text>
+          <view class="cu-tag round bg-orange sm">战士</view>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut">在吗？可以加入你的遛弯吗？</text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-sm">22:20</view>
+        <view class="cuIcon-notice_forbid_fill text-gray"></view>
+      </view>
+    </navigator>
+    <navigator class="cu-item " url="../chat/chat">
+      <view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+      <view class="content">
+        <view class="text-pink">
+          <text class="text-cut">莫甘娜</text>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut">在吗？可以加入你的遛弯吗？</text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-sm">22:20</view>
+        <view class="cu-tag round bg-red sm">5</view>
+      </view>
+    </navigator>
+    <navigator class="cu-item grayscale" url="../chat/chat">
+      <view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81007.jpg);"></view>
+      <view class="content">
+        <view>
+          <text class="text-cut">伊泽瑞尔</text>
+          <view class="cu-tag round bg-orange sm">断开连接...</view>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut"> 在吗？可以加入你的遛弯吗？</text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-sm">22:20</view>
+        <view class="cu-tag round bg-red sm">5</view>
+      </view>
+    </navigator>
+    
+  </view>

@@ -1,0 +1,32 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{true}}">
+<view slot="content">狗粮记录</view>
+</cu-custom>
+<view class='bg-white margin-top-sm'>
+
+  <view class="cu-list menu">
+    <view class="cu-item solid-bottom" wx:for="{{5}}" wx:key>
+      <view class="content padding-tb-sm">
+        <text class='text-black'>发布约溜</text>
+        <view class="text-gray text-sm">
+          2019.06.28 13：20:02</view>
+      </view>
+      <view class="action text-center">
+          <text class='text-lg margin-lr-lg text-red padding-bottom-sm'>-20</text>
+          <image src='/images/gouliang_big.png' class='food-record-img center'></image>
+      </view>
+    </view>
+    <view class="cu-item solid-bottom" wx:for="{{5}}" wx:key>
+      <view class="content padding-tb-sm">
+        <text class='text-black'>充值</text>
+        <view class="text-gray text-sm">
+          2019.06.28 13：20:02</view>
+      </view>
+      <view class="action text-center">
+          <text class='text-lg margin-lr-lg text-green padding-bottom-sm'>+50</text>
+          <image src='/images/gouliang_big.png' class='food-record-img center'></image>
+      </view>
+    </view>
+
+  </view>
+
+</view>

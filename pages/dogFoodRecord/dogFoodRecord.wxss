@@ -1,0 +1,6 @@
+/* pages/dogFoodRecord/dogFoodRecord.wxss */
+.food-record-img{
+  width: 80rpx;
+  height: 40rpx;
+
+}

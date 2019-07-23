@@ -1,0 +1,23 @@
+<!-- <view class='list'> -->
+  <view class='li' wx:for='{{funjinlist}}' wx:key='{{item}}'>
+    <image class='li-fl' src='{{item.image}}'></image>
+    <view class='li-cen'>
+      <text class='h1'>{{item.name}}</text>
+      <view class='sex'>
+        <image wx:if='{{item.sex == 1}}' src='/images/s/boy_icon.png'></image>
+        <image wx:else src='/images/s/girl_icon.png'></image>
+        {{item.age}}
+      </view>
+      <view>{{item.gap}} {{item.time}}</view>
+    </view>
+
+    <view wx:for='{{item.chongwu}}' wx:key='{{item}}' class='chongwu'>
+      <image src='{{item.image}}'></image>
+      <view>{{item.name}}</view>
+    </view>
+    <view wx:if='{{item.chongwulen == 0}}' class='chongwu chongwu-0'>
+      <image src='/images/s/dog.png'></image>
+      <view>想撸狗</view>
+    </view>
+  </view>
+<!-- </view> -->

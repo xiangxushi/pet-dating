@@ -1,0 +1,25 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{true}}">
+<view slot="content">最近来访</view>
+</cu-custom>
+<view class='margin-top-sm'>
+
+  <view class="cu-list menu-avatar ">
+    <view class="cu-item solid-bottom" wx:for="{{3}}" wx:key>
+        <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+        <view class="content">
+          <view class="text-grey">悠然Baby</view>
+          <view class="text-gray text-sm flex">
+              <text class='text-df'>北京</text>
+              <view class='cu-tag round bg-newpink margin-lr-sm'>
+                <text class='cuIcon-noticefill sm text-white'>21</text>
+              </view>
+          </view>
+        </view>
+        <view class="action margin-lr-sm">
+          <view class="text-grey text-sm">5月04日</view>
+        </view>
+      </view>
+
+  </view>
+
+</view>

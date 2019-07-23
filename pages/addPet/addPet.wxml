@@ -1,0 +1,60 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{true}}">
+<view slot="content">添加狗狗</view>
+</cu-custom>
+<view class='bg-white margin-top-sm'>
+  <view class='text-center padding-xl'>
+    <view class="cu-avatar xl round margin-left bg-gray">
+      <text class='text-df'>头像</text>
+       <text class="cu-tag badge  cuIcon-camerafill bg-newyellow lg"></text>
+    </view>
+  </view>
+</view>
+<view class="cu-list menu {{menuBorder?'sm-border':''}} {{menuCard?'card-menu margin-top':''}}">
+  <view class="cu-item arrow">
+    <view class="content">
+      <text class="text-black">宠物名称</text>
+    </view>
+    <view class="action">
+        <text class="text-grey text-df">设置宠物名称</text>
+    </view>
+  </view>
+   
+  <view class="cu-item arrow">
+    <view class="content">
+      <text class="text-black">宠物性别</text>
+    </view>
+    <view class="action">
+          <text class="cuIcon-clothesfill text-white margin-right-xs lg round bg-pink padding-xs"></text> 
+          <text class='text-sm margin-lr-xs'>MM</text>
+          <text class="cuIcon-clothesfill text-white margin-right-xs lg round bg-grey padding-xs"></text> 
+          <text class='text-sm margin-r-xs'>GG</text>
+      </view>
+  </view>
+  <view class="cu-item arrow">
+    <view class="content">
+      <text class="text-black">宠物品种</text>
+    </view>
+    <view class="action">
+        <text class="text-grey text-df">选择宠物品种</text>
+    </view>
+  </view>
+  <view class="cu-item arrow">
+    <view class="content">
+      <text class="text-black">宠物生日</text>
+    </view>
+    <view class="action">
+        <text class="text-grey text-df">选择宠物生日</text>
+    </view>
+  </view>
+  <view class="cu-item arrow">
+    <view class="content">
+      <text class="text-black">绝育状态</text>
+    </view>
+    <view class="action">
+        <text class="text-grey text-df">请选择</text>
+    </view>
+  </view>
+</view>
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-newyellow margin-tb-sm lg round">保存</button>
+</view>
