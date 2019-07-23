@@ -56,7 +56,7 @@
 .scroll-item text {
   display: block;
   height: 63rpx;
-  font-size: 28rpx;
+  font-size: 23rpx;
   line-height: 36rpx;
   white-space: normal;
   overflow: hidden;
@@ -81,7 +81,7 @@
   font-stretch: normal;
   letter-spacing: 0rpx;
   color: #666;
-  margin-left: 40rpx;
+  /* margin-left: 40rpx; */
 }
 
 .nav view.on {
@@ -98,7 +98,7 @@
   width: 70rpx;
   height: 70rpx;
   border-radius: 50%;
-  margin: 0 23rpx 0 43rpx;
+  /* margin: 0 23rpx 0 43rpx; */
 }
 
 .lb {
@@ -120,7 +120,7 @@
 
 .follow {
   float: right;
-  margin: 41rpx 30rpx 0 0;
+  /* margin: 41rpx 30rpx 0 0; */
   background-image: linear-gradient(#fffadd, #fffadd), linear-gradient(#fff, #fff);
   width: 140rpx;
   height: 56rpx;
@@ -130,17 +130,17 @@
 }
 
 .zw {
-  margin: 5rpx 44rpx;
+  /* margin: 5rpx 44rpx; */
   font-size: 30rpx;
   color: #222;
 }
 .flex3{
-  margin: 10rpx 10rpx;
+  /* margin: 10rpx 10rpx; */
 }
 .flex3 image{
   display: inline-block;
   width: 32% ;
-  margin: 5rpx;
+  margin: 0rpx 5rpx;
   height: 230rpx;
 }
 .fo{

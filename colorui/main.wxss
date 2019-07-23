@@ -3038,7 +3038,7 @@ scroll-view.cu-steps .cu-item {
 }
 
 .margin {
-	margin: 30rpx;
+	margin: 15rpx;
 }
 
 .margin-lg {

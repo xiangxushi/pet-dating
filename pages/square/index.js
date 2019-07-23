@@ -16,11 +16,23 @@ Page({
       {
         img: 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
         title: '[北京]123带狗子去乘风破浪旅游去…23带狗子去乘风破浪旅游去…23带狗子去乘风破浪旅游去……'
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
+        title: '[北京]带狗子去乘风破浪旅游去……'
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
+        title: '[北京]12带狗子去乘风破浪旅游去……'
+      },
+      {
+        img: 'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
+        title: '[北京]123带狗子去乘风破浪旅游去…23带狗子去乘风破浪旅游去…23带狗子去乘风破浪旅游去……'
       }
     ],
     list:[
       {
-        touxiang:'/images/touxiang.jpeg',
+        touxiang:'/images/home/head.png',
         name:'小阳光',
         date:'三天前',
         line:'距离13K',
@@ -32,12 +44,28 @@ Page({
           '/images/touxiang.jpeg',
           '/images/touxiang.jpeg',
           '/images/touxiang.jpeg',
+        ],
+        sc:1,
+        scnum:68,
+        xiaoxi:126
+      },
+      {
+        touxiang: '/images/touxiang.jpeg',
+        name: '小阳光',
+        date: '三天前',
+        line: '距离13K',
+        zw: '每次出去都很开心',
+        img: [
+          '/images/touxiang.jpeg',
+          '/images/touxiang.jpeg',
+          '/images/touxiang.jpeg',
+          '/images/touxiang.jpeg',
           '/images/touxiang.jpeg',
           '/images/touxiang.jpeg',
         ],
-        sc:1,
-        scnum:123,
-        xiaoxi:123
+        sc: 1,
+        scnum: 68,
+        xiaoxi: 126
       }
     ]
   },
