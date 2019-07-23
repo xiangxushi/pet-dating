@@ -2,3 +2,7 @@
 .cu-card>.cu-item {
 margin:20rpx!important;
 }
+
+.activity-banner{
+  height: 400rpx;
+}
