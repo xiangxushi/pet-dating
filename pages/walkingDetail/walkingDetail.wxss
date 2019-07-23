@@ -1,0 +1,12 @@
+/* pages/walkingDetail/walkingDetail.wxss */
+.icon{
+  width:30rpx;
+  height: 30rpx;
+}
+.cu-list+.cu-list {
+	margin-top: 0rpx!important;
+}
+
+.cu-tag {
+	height: 38rpx!important;
+}

@@ -4,6 +4,3 @@
   padding:0rpx 12rpx!important;
   margin-top: 6rpx;
 }
-.bg-newpink{
-  background-color: #fd65b3;
-}

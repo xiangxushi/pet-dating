@@ -1,10 +1,11 @@
 <cu-custom bgColor="bg-white text-black" isBack="{{false}}">
 <view slot="content">我的</view>
 </cu-custom>
-<view class='top'>
+
+<view class='top bg-white'>
   <view class='touxiang'>
-    <image class='touxiang-img' src='/images/touxiang.jpeg'></image>
-    <view class='touxiang-text'>{{name}}
+    <image class='touxiang-img shadow' src="{{userInfo.avatarUrl}}"></image>
+    <view class='touxiang-text'>{{userInfo.nickName}}
       <view class='age'>
         <image src='/images/img/boy_icon.png' class='sex' wx:if="{{sex == 'boy'}}"></image> 
         <image src='/images/img/girl_icon.png' class='sex' wx:else ></image>   
@@ -16,13 +17,15 @@
     <image src='/images/img/bian_ji.png'></image>
     <text>资料</text>
   </view>
-  <view class='view-box'>
+  <view class='view-box shadow-lg margin-sm'>
     <view class='box cl' bindtap='goFoodRecord' data-url='dogfoot' >
       <text class='fts32'>{{gouliang}}</text>
       <image src='/images/img/toase-gouliang.png' class='gouliang'></image>
     </view>
     <view class='box'>
-      <text class='fts32'>{{zan}}</text>赞
+      <text class='fts32'>{{zan}}</text>
+      <text class="padding-tb-xs">赞</text>
+      
     </view>
     <view class='box'>
       <text class='fts32'>{{guanzhu}}</text>关注</view>
@@ -40,7 +43,7 @@
     <image src="/images/img/jiantou.png" class='jiantou'></image>
   </view>
   <view bindtap="goAddPet">
-    <image class='main_image' src='/images/img/tianjia_icon.png'></image>
+    <image class='main_image' src='/images/img/tian_jia.png'></image>
     <view class='main-fr'>
       <text class='h1'>添加宠物</text>
     </view>
@@ -57,11 +60,11 @@
     <text>相册</text>
   </view>
 </view>
-<view class='list'>
+<view class='list padding-bottom-lg padding-lr-sm'>
   <view class='li'>
     <view class='list-r'>
       <text class='h2'>26</text>
-      <text>5月</text>
+      <text>五月</text>
     </view>
     <image class='list-m radius' src='/images/img/my-bg.jpg'></image>
     <view class='list-l'>我很快乐</view>
@@ -69,7 +72,7 @@
 <view class='li'>
     <view class='list-r'>
       <text class='h2'>26</text>
-      <text>5月</text>
+      <text>五月</text>
     </view>
     <image class='list-m radius' src='/images/img/my-bg.jpg'></image>
     <view class='list-l'>我很快乐</view>
@@ -77,7 +80,7 @@
   <view class='li'>
     <view class='list-r'>
       <text class='h2'>26</text>
-      <text>5月</text>
+      <text>五月</text>
     </view>
     <image class='list-m radius' src='/images/img/my-bg.jpg'></image>
     <view class='list-l'>我很快乐</view>

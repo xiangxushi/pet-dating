@@ -1,0 +1,148 @@
+<cu-custom bgColor="bg-white text-black" isBack="{{true}}">
+  <view slot="content">约溜详情</view>
+</cu-custom>
+<view class="cu-list menu margin-top-sm ">
+  <view class="cu-item">
+    <view class="content">
+      <image src="/images/img/dingwei_xian.png" class="png" mode="aspectFit"></image>
+      <text class="text-black">东坝公园西门</text>
+    </view>
+    <view class="action text-blue">
+      <text>导航去这里</text>
+      <image src="/images/img/jiantou_big.png" class="margin-lr-xs icon"  mode="aspectFit"></image>
+    </view>
+  </view>
+  <view class="cu-item">
+    <view class="content">
+      <image src="/images/img/shijian.png" class="png" mode="aspectFit"></image>
+      <text class="text-black">今天 </text>
+      <text class="margin-lr-lg">22:30-23:30</text>
+    </view>
+  </view>
+  <view class="cu-item margin-top-sm">
+    <view class="content">
+      <image src="/images/img/shu_xian.png" class="png" mode="aspectFit"></image>
+      <text class="text-black">加入条件</text>
+    </view>
+  </view>
+  <view class="cu-item">
+      <view class="content">
+        <text class="text-black padding-lr-sm">人数:</text>
+        <text class="text-gray margin-lr-xl">无限制</text>
+      </view>
+  </view>
+  <view class="cu-item">
+      <view class="content">
+        <text class="text-black padding-lr-sm">宠物:</text>
+        <text class="text-gray margin-lr-xl">无限制</text>
+      </view>
+  </view>
+  <view class="cu-item">
+      <view class="content">
+        <text class="text-black padding-lr-sm">备注:</text>
+        <text class="text-gray margin-lr-xl">请按时到达目的地!</text>
+      </view>
+  </view>
+
+</view>
+
+<view class="cu-list menu margin-top-sm ">
+  <view class="cu-item">
+    <view class="content">
+      <image src="/images/img/shu_xian.png" class="png" mode="aspectFit"></image>
+      <text class="text-black">赴约宠友(2人)</text>
+    </view>
+  </view>
+</view>
+
+  <view class="cu-list menu-avatar ">
+    <view class="cu-item solid-bottom">
+        <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+        <view class="content">
+          <view class="text-grey">故事与酒<text class="text-yellow">(发起人)</text></view>
+          <view class="text-gray text-sm flex">
+              <view class='cu-tag round bg-newpink'>
+                <text class='cuIcon-noticefill sm text-white'>21</text>
+              </view>
+          </view>
+          <view>
+          <text class="text-gray text-xs">3.85km  12分钟前</text>
+          </view>
+        </view>
+        <view class="action ">
+          <view class="grid align-center">
+            <view class="cu-avatar df round margin-left-xs" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+            <view class='cu-tag round bg-pink'>
+                <text class=' text-white text-xs'>雪橇犬</text>
+              </view>
+          </view>
+        </view>
+        <view class="action ">
+          <view class="grid align-center">
+            <view class="cu-avatar df round margin-left-xs" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+            <view class='cu-tag round bg-green'>
+                <text class=' text-white text-xs'>萨摩耶</text>
+              </view>
+          </view>
+        </view>
+      </view>
+
+
+
+      <view class="cu-item solid-bottom">
+        <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+        <view class="content">
+          <view class="text-grey">故事与酒</view>
+          <view class="text-gray text-sm flex">
+              <view class='cu-tag round bg-newpink'>
+                <text class='cuIcon-noticefill sm text-white'>21</text>
+              </view>
+          </view>
+          <view>
+          <text class="text-gray text-xs">3.85km  12分钟前</text>
+          </view>
+        </view>
+        <view class="action ">
+          <view class="grid align-center">
+            <view class="cu-avatar df round margin-left-xs" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+            <view class='cu-tag round bg-green'>
+                <text class=' text-white text-xs'>萨摩耶</text>
+              </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="cu-item solid-bottom">
+        <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+        <view class="content">
+          <view class="text-grey">故事与酒</view>
+          <view class="text-gray text-sm flex">
+              <view class='cu-tag round bg-newpink'>
+                <text class='cuIcon-noticefill sm text-white'>21</text>
+              </view>
+          </view>
+          <view>
+          <text class="text-gray text-xs">3.85km  12分钟前</text>
+          </view>
+        </view>
+        <view class="action ">
+          <view class="grid align-center">
+            <view class="cu-avatar df round margin-left-xs" style="background-image:url(/images/img/dog.png);"></view>
+            <view class='cu-tag round bg-grey'>
+                <text class=' text-white text-xs'>想撸狗</text>
+              </view>
+          </view>
+        </view>
+      </view>
+
+
+
+
+
+
+
+  </view>
+
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-newyellow margin-tb-sm lg round">加入约宠</button>
+</view>

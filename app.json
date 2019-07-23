@@ -12,7 +12,9 @@
     "pages/petLimit/petLimit",
     "pages/addWalking/addWalking",
     "pages/visitors/visitors",
-    "pages/notice/notice"
+    "pages/notice/notice",
+    "pages/walkingDetail/walkingDetail"
+    
   ],
   "permission": {
     "scope.userLocation": {

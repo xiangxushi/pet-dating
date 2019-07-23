@@ -1,7 +1,7 @@
 <!-- <view class='list'> -->
-  <view class='li' wx:for='{{funjinlist}}' wx:key='{{item}}'>
+  <navigator class='li' wx:for='{{funjinlist}}' wx:key='{{item}}' url="/pages/walkingDetail/walkingDetail">
     <image class='li-fl' src='{{item.image}}'></image>
-    <view class='li-cen'>
+    <view class='li-cen' >
       <text class='h1'>{{item.name}}</text>
       <view class='sex'>
         <image wx:if='{{item.sex == 1}}' src='/images/s/boy_icon.png'></image>
@@ -19,5 +19,5 @@
       <image src='/images/s/dog.png'></image>
       <view>想撸狗</view>
     </view>
-  </view>
+  </navigator>
 <!-- </view> -->

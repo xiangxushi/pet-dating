@@ -118,3 +118,10 @@
   background-color:#FFE663;
   color: #6D5B00;
 }
+.text-newyellow{
+  color:#FFE663;
+}
+
+.bg-newpink{
+  background-color: #fd65b3;
+}
