@@ -3,23 +3,23 @@
 </cu-custom>
 <view class="cu-list menu margin-top-sm sm-border">
     <view class="cu-item arrow message-list">
-      <view class="content">
+      <view class="content" hover-class="none">
         <image src='../../images/message/guan_zhu.png' class="message-icon"></image>
         <text class="padding-left-sm">关注</text>
       </view>
     </view>
-    <view class="cu-item arrow message-list">
-      <navigator class="content" url="/pages/visitors/visitors">
+    <navigator class="cu-item arrow message-list" url="/pages/visitors/visitors">
+      <view class="content" hover-class="none" >
         <image src='../../images/message/lai_fang.png' class="message-icon"></image>        
         <text class="padding-left-sm">访客</text>
-      </navigator>
-    </view>
-    <view class="cu-item arrow message-list">
-      <navigator class="content" hover-class="none" url="../list/list" open-type="redirect">
+      </view>
+    </navigator>
+    <navigator class="cu-item arrow message-list" url="/pages/notice/notice">
+      <view class="content" hover-class="none" >
         <image src='../../images/message/tong_zhi.png' class="message-icon"></image>
         <text class="padding-left-sm">通知</text>
-      </navigator>
-    </view>
+      </view>
+    </navigator>
   </view>
 
 <view class="cu-list menu-avatar">

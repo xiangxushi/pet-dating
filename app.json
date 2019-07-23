@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/notice/notice",
     "pages/home/index",
     "pages/chat/chat",
     "pages/message/message",
@@ -12,7 +11,8 @@
     "pages/dogFoodRecord/dogFoodRecord",
     "pages/petLimit/petLimit",
     "pages/addWalking/addWalking",
-    "pages/visitors/visitors"
+    "pages/visitors/visitors",
+    "pages/notice/notice"
   ],
   "permission": {
     "scope.userLocation": {
