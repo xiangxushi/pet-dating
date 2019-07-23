@@ -15,7 +15,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
 	"appid": "wxfbc1c20ebe05d582",
-	"projectname": "miniprogram-test-2",
+	"projectname": "pet-dating",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
